@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    text-indent: 20px;
+}
+
+
+.header {
+    background: #659bf2 url(../images/Earth.jpeg) no-repeat center top fixed;
+    background-size: contain;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+
+}
+
+.hat {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.name {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 50px;
+}
+
+.prof {
+    font-size: 32px;
+}
+
+.fire {
+    color: #fff;
+    text-shadow:
+        0 0 2px #eee,
+        0 0 4px #fff,
+        0 -2px 4px #ff3,
+        2px -4px 6px #fd3,
+        -2px -6px 11px #f80,
+        2px -8px 18px #f20;
+    font-size: 32px;
+}
+
+.my_photo {
+    margin: 15px;
+}
+
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    background-color: #659bf2;
+    padding: 25px;
+
+}
+
+.text {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 32px;
+}
+
+.my_laptop {
+    margin: 15px;
+}
+
+.border {
+    background: linear-gradient(blue, pink);
+}
+
+.border2 {
+    background: linear-gradient(pink, blue);
+}
+
+.here {
+    padding-left: 20px;
+    background-color: rgb(101, 155, 242);
+    color: #2b05b3;
+    text-shadow: 1px 1px 2px red, 0 0 1em #f7f7f8, 0 0 0.2em rgb(253, 253, 253);
+}
+
+.footer {
+    background: #659bf2 url(../images/Earth2.jpeg) no-repeat center bottom fixed;
+    background-size: contain;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+
+    padding: 50px;
+    color: #fff;
+    font-size: 32px;
+    text-shadow: 1px 0 3px #fff,
+        0 1px 3px #fff,
+        -1px 0 3px #fff,
+        0 -1px 3px #fff;
+}
+
+.foot_text {
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
